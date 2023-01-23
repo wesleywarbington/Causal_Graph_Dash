@@ -2,4 +2,4 @@
 [mainApp.py](mainApp.py) is the driver file. Run the file and play around with the application on your local host.
 
 1) From the dropdown, you can choose graph configurations or simply move individual nodes.
-![](causalGif_1.gif)
+![](gifs/causalGif_1.gif)
