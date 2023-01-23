@@ -13,7 +13,8 @@ df = pd.read_csv('data/student-por.csv', delimiter=';')
 graph = nx.drawing.nx_agraph.read_dot('data/graph.dot')
 cyto.load_extra_layouts()
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL]) # https://bootswatch.com/default/ 
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL]) # https://bootswatch.com/default/
+# Other possible themes below:
 # CERULEAN, COSMO, CYBORG, FLATLY, JOURNAL, LITERA, LUMEN
 # *********************************************************************************************************
 # Graph data
